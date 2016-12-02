@@ -1,0 +1,21 @@
+# -*- coding: utf8 -*-
+
+# Каталог, в котором будут размещены результирующие плейлисты
+BASE_DIR = '/var/www/video'
+
+# URL, по которому доступен этот каталог
+BASE_URL = 'http://SERVER/video'
+
+# URL STALKER PORTAL
+STALKER_URL = 'http://STALKER_SERVER/stalker_portal'
+
+# IP VOD-серверов
+# Если необходимо заменять локальные IP адреса хранилища на внешние, необходимо заполнить
+IPS = {
+#    '10.0.0.120': '208.128.50.94',
+}
+
+DB_HOST = "localhost"
+DB_USER = "stalker"
+DB_PASS = "********"
+DB_DATABASE = "stalker_db"
