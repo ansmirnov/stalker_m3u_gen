@@ -1,5 +1,8 @@
 # -*- coding: utf8 -*-
 
+__author__ = "Andrey Smirnov"
+__email__ = "mail@ansmirnov.ru"
+
 import phpserialize
 import MySQLdb
 import urllib2

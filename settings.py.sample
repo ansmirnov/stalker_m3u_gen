@@ -1,5 +1,8 @@
 # -*- coding: utf8 -*-
 
+__author__ = "Andrey Smirnov"
+__email__ = "mail@ansmirnov.ru"
+
 # Каталог, в котором будут размещены результирующие плейлисты
 BASE_DIR = '/var/www/video'
 
