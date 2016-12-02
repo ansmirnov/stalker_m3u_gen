@@ -6,6 +6,7 @@ __email__ = "mail@ansmirnov.ru"
 import phpserialize
 import _mysql
 import urllib2
+import settings
 
 db = _mysql.connect(host=settings.DB_HOST, user=settings.DB_USER, passwd=settings.DB_PASS, db=settings.DB_DATABASE)
 
